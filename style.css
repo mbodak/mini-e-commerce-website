@@ -1,0 +1,276 @@
+html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+input
+{
+    outline: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+body
+{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    font-family: Tahoma;
+    /*background-color: aqua;*/
+}
+header
+{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #CCCCCC;
+}
+.clearfix:after,.tn:after{content:'';display:block;clear:both}
+.t1,.t1:hover{transition:all .1s ease-in;-webkit-transition:all .1s ease-in}
+.t2,.t2:hover{transition:all .2s ease-in;-webkit-transition:all .2s ease-in}
+.displayNone {display: none !important;}
+
+#wrapper
+{
+    min-height: 100%;
+}
+#head_logo
+{
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+}
+#head_search
+{
+    width: 60%;
+    box-sizing: border-box;
+    /*background-color: blueviolet;*/
+    float: left;
+}
+#head_basket
+{
+    width: 10%;
+    box-sizing: border-box;
+    float: left;
+}
+#logo
+{
+    width: 40%;
+    margin-top: 40px;
+}
+#basket
+{
+    margin-top: 20px;
+    height: 60px;
+}
+#search_fild
+{
+    padding: 5px 15px;
+    height: 35px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 40px;
+}
+.search_button
+{
+    height: 80px;
+}
+#left_sidebar
+{
+    width: 24%;
+    height: 600px;
+    float: left;
+    box-sizing: border-box;
+}
+#main
+{
+    margin-left: 24%;
+    width: 76%;
+    height: 800px;
+    box-sizing: border-box;
+}
+#wrapper #left_sidebar form, a
+{
+    font: 16px Tahoma;
+}
+footer {
+
+    width: 100%;
+    /*height: 140px;*/
+    border-top: 1px solid #CCCCCC;
+}
+fieldset
+{
+    font-size: 22px;
+    padding-left: 5%;
+    margin: 40px 10%;
+    border-radius: 10px;
+    border: 2px solid #CCC;
+}
+legend
+{
+    padding: 0 10px;
+}
+.things
+{
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    width: 48%;
+    height: 300px;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    position: relative;
+    border-radius: 4px;
+}
+.things:hover
+{
+    box-shadow: 0 6px 10px 6px rgba(0, 0, 0, 0.13);
+}
+.things img
+{
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 4%;
+}
+.things p
+{
+    font-size: 14px;
+    padding: 0;
+    margin: 1%;
+}
+.com
+{
+    clear: both;
+    margin: 50px 50px;
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 10px 0;
+    word-wrap: break-word;
+    font-size: 26px;
+}
+.buy
+{
+    padding: 5px 30px;
+    font-style: bold;
+    background-color: #CCCCCC;
+    border: 2px solid #fff3b5;
+    border-radius: 4px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-family: arial;
+    font-size: 15px;
+    padding: 10px;
+
+}
+.buy:hover
+{
+    color: #000;
+    background-color: #fff3b5;
+}
+#left_sidebar ul
+{
+    list-style-type: none;
+    width: 80%;
+}
+#left_sidebar ul li
+{
+    font-size: 24px;
+    border-radius: 4px;
+    background-color: #e6e6e6;
+    padding: 11px 25px;
+    margin-bottom: 5px;
+    color: #484747;
+}
+
+#left_sidebar ul li:hover
+{
+    background-color: #9bd68d;;
+}
+.logout
+{
+    width: 80%;
+    box-sizing: border-box;
+    height: 80px;
+    border: 1px solid #999999;
+    border-radius: 30px;
+    margin: 20px 10%;
+    font-size: 60px;
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+.logout:hover
+{
+    background-color: #9bd68d;
+}
+.tovar
+{
+    width: 100%;
+    background-color: #9a9f47;
+}
+table
+{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+thead
+{
+    background-color: #ccc;
+}
+tr
+{
+    padding-top: 10px;
+    border: 1px solid black;
+}
+h5.price {
+    display: block;
+    margin: auto;
+    width: 100px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: #fff3b5;
+    padding: 10px;
+    border-radius: 4px;
+    color: #1b1d1b;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    border: 2px solid #fff3b5;
+}
+fieldset.first {
+    margin-top: 0;
+}
+.btn {
+    display: block;
+    font: 14px arial;
+    background: #b9b9b9;
+    border-radius: 4px;
+    padding: 10px 16px;
+    color: #fff;
+}
+.btn:hover {
+    background: #70b566;
+}
+.titlebtn {
+    color: #444242;
+    font: 20px Tahoma;
+}
+#auth input {
+    display: block;
+    width: 100%;
+    padding: 6px 8px;
+
+}
